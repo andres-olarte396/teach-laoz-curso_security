@@ -1,0 +1,184 @@
+{
+  "id": "security-dotnet",
+  "title": "Seguridad Aplicada a .NET",
+  "description": "Fortalecer las competencias en seguridad del desarrollo de software, integrando buenas prácticas, herramientas de análisis y cumplimiento en proyectos .NET, desde el diseño hasta la entrega continua.",
+  "modules": [
+    {
+      "modulo_id": 1,
+      "titulo": "Fundamentos de Seguridad en Desarrollo",
+      "temas": [
+        {
+          "tema_id": "1.1",
+          "titulo": "Fundamentos y Conceptos Base",
+          "subtemas": [
+            { "subtema_id": "1.1.1", "titulo": "Security by Design y Defense in Depth" },
+            { "subtema_id": "1.1.2", "titulo": "CIA Triad (Confidencialidad, Integridad, Disponibilidad)" }
+          ]
+        },
+        {
+          "tema_id": "1.2",
+          "titulo": "Amenazas y Vulnerabilidades",
+          "subtemas": [
+            { "subtema_id": "1.2.1", "titulo": "OWASP Top 10 (2021)" },
+            { "subtema_id": "1.2.2", "titulo": "Tipos de ataques (Injection, XSS, CSRF, DoS)" }
+          ]
+        }
+      ]
+    },
+    {
+      "modulo_id": 2,
+      "titulo": "Seguridad en el Ciclo de Vida (Microsoft SDL)",
+      "temas": [
+        {
+          "tema_id": "2.1",
+          "titulo": "Procesos y Herramientas SDL",
+          "subtemas": [
+            { "subtema_id": "2.1.1", "titulo": "Fases del Microsoft SDL" },
+            { "subtema_id": "2.1.2", "titulo": "Threat Modeling Tool" }
+          ]
+        },
+        {
+          "tema_id": "2.2",
+          "titulo": "Validación y Revisión",
+          "subtemas": [
+            { "subtema_id": "2.2.1", "titulo": "Secure Code Review Checklist" },
+            { "subtema_id": "2.2.2", "titulo": "Validación de dependencias (SBOM)" }
+          ]
+        }
+      ]
+    },
+    {
+      "modulo_id": 3,
+      "titulo": "Seguridad Aplicada a .NET",
+      "temas": [
+        {
+          "tema_id": "3.1",
+          "titulo": "Implementación de Seguridad",
+          "subtemas": [
+            { "subtema_id": "3.1.1", "titulo": "Autenticación (JWT, Identity, OAuth2)" },
+            { "subtema_id": "3.1.2", "titulo": "Protección contra CSRF, XSS, SQL Injection" }
+          ]
+        },
+        {
+          "tema_id": "3.2",
+          "titulo": "Configuración y Validación",
+          "subtemas": [
+            { "subtema_id": "3.2.1", "titulo": "Configuración segura (appsettings, secrets)" },
+            { "subtema_id": "3.2.2", "titulo": "Políticas de cabeceras (CSP, HSTS)" },
+            { "subtema_id": "3.2.3", "titulo": "Validación de entrada (DataAnnotations, FluentValidation)" }
+          ]
+        }
+      ]
+    },
+    {
+      "modulo_id": 4,
+      "titulo": "Análisis Estático con SonarQube",
+      "temas": [
+        {
+          "tema_id": "4.1",
+          "titulo": "Configuración SonarQube",
+          "subtemas": [
+            { "subtema_id": "4.1.1", "titulo": "Instalación y configuración" },
+            { "subtema_id": "4.1.2", "titulo": "Reglas de seguridad y Quality Gates" }
+          ]
+        },
+        {
+          "tema_id": "4.2",
+          "titulo": "Integración CI/CD",
+          "subtemas": [
+            { "subtema_id": "4.2.1", "titulo": "Integración con GitHub Actions / Azure DevOps" },
+            { "subtema_id": "4.2.2", "titulo": "Análisis de dependencias (OWASP Dependency Check)" }
+          ]
+        }
+      ]
+    },
+    {
+      "modulo_id": 5,
+      "titulo": "Seguridad en Red y Fortinet",
+      "temas": [
+        {
+          "tema_id": "5.1",
+          "titulo": "Defensa Perimetral",
+          "subtemas": [
+            { "subtema_id": "5.1.1", "titulo": "Segmentación de red y zonas seguras" },
+            { "subtema_id": "5.1.2", "titulo": "Políticas de acceso a APIs" }
+          ]
+        },
+        {
+          "tema_id": "5.2",
+          "titulo": "Infraestructura Fortinet",
+          "subtemas": [
+            { "subtema_id": "5.2.1", "titulo": "Firewalls FortiGate / FortiWeb" },
+            { "subtema_id": "5.2.2", "titulo": "Alertas y monitoreo" },
+            { "subtema_id": "5.2.3", "titulo": "Logs .NET hacia SIEM" }
+          ]
+        }
+      ]
+    },
+    {
+      "modulo_id": 6,
+      "titulo": "Pruebas de Seguridad y Pentesting Ético",
+      "temas": [
+        {
+          "tema_id": "6.1",
+          "titulo": "Herramientas de Escaneo",
+          "subtemas": [
+            { "subtema_id": "6.1.1", "titulo": "Escaneo con OWASP ZAP y Burp Suite" },
+            { "subtema_id": "6.1.2", "titulo": "Fuzzing y pruebas automatizadas" }
+          ]
+        },
+        {
+          "tema_id": "6.2",
+          "titulo": "Validación Avanzada",
+          "subtemas": [
+            { "subtema_id": "6.2.1", "titulo": "OWASP API Security Top 10" },
+            { "subtema_id": "6.2.2", "titulo": "Validación de dependencias NuGet" }
+          ]
+        }
+      ]
+    },
+    {
+      "modulo_id": 7,
+      "titulo": "Documentación y Base de Conocimiento",
+      "temas": [
+        {
+          "tema_id": "7.1",
+          "titulo": "Estandarización",
+          "subtemas": [
+            { "subtema_id": "7.1.1", "titulo": "Manuales internos (Secure Coding, Threat Modeling)" },
+            { "subtema_id": "7.1.2", "titulo": "Checklist OWASP + SDL" }
+          ]
+        },
+        {
+          "tema_id": "7.2",
+          "titulo": "Gestión del Conocimiento",
+          "subtemas": [
+            { "subtema_id": "7.2.1", "titulo": "Repositorio central de conocimiento" }
+          ]
+        }
+      ]
+    },
+    {
+      "modulo_id": 8,
+      "titulo": "DevSecOps Avanzado",
+      "temas": [
+        {
+          "tema_id": "8.1",
+          "titulo": "Automatización Avanzada",
+          "subtemas": [
+            { "subtema_id": "8.1.1", "titulo": "GitHub Advanced Security / CodeQL" },
+            { "subtema_id": "8.1.2", "titulo": "Integración de OWASP ZAP + SonarQube en CI/CD" }
+          ]
+        },
+        {
+          "tema_id": "8.2",
+          "titulo": "Políticas y Monitoreo",
+          "subtemas": [
+            { "subtema_id": "8.2.1", "titulo": "Azure DevOps Policies" },
+            { "subtema_id": "8.2.2", "titulo": "Monitoreo continuo (App Insights / SIEM)" }
+          ]
+        }
+      ]
+    }
+  ]
+}
