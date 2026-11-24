@@ -8,9 +8,9 @@
 - b) Broken Access Control
 - c) Cryptographic Failures
 
-> **Respuesta Correcta:** B) Broken Access Control
+> **Respuesta Correcta:** B) Broken Access Control.
 >
-> **Justificación:** Al proteger el acceso a los recursos, evitando que se acceda a información sensible sin autorización.
+> **Justificación:**
 
 ### Pregunta 2
 
@@ -20,9 +20,9 @@
 - b) Insecure Design
 - c) Security Misconfiguration
 
-> **Respuesta Correcta:** A) Injection (A03)
+> **Respuesta Correcta:** A) Injection (A03).
 >
-> **Justificación:** Al proteger la disponibilidad del servicio, evitando que se caiga o se sobrecargue sin autorización.
+> **Justificación:**
 
 ### Pregunta 3
 
@@ -30,8 +30,8 @@ La categoría "Vulnerable and Outdated Components" se refiere a:
 
 - a) Usar versiones viejas de Windows Server.
 - b) Usar librerías de terceros (NuGets, npm) con fallos de seguridad conocidos.
-- c) No reiniciar el servidor después de actualizar.|
+- c) No reiniciar el servidor después de actualizar.
 
 > **Respuesta Correcta:** B) Usar librerías de terceros (NuGets, npm) con fallos de seguridad conocidos.
 >
-> **Justificación:** Al proteger la disponibilidad del servicio, evitando que se caiga o se sobrecargue sin autorización.
+> **Justificación:**

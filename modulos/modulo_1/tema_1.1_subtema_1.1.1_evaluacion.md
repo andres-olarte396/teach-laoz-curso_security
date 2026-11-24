@@ -12,7 +12,7 @@ Un desarrollador decide encriptar las contraseñas en la base de datos (Capa de 
 - b) Defense in Depth (Falla en una capa crítica anula la otra)
 - c) Principio de Menor Privilegio
 
-> **Respuesta Correcta:** B) Defense in Depth (Al fallar la capa de transporte, la capa de datos es irrelevante si se intercepta antes).
+> **Respuesta Correcta:** B) Defense in Depth.
 >
 > **Justificación:** Defense in Depth (Al fallar la capa de transporte, la capa de datos es irrelevante si se intercepta antes)
 
